@@ -70,7 +70,7 @@ export function Testimonials() {
 
               {/* Quote */}
               <p className="text-foreground/90 mb-6 text-sm leading-relaxed italic">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </p>
 
               {/* Author */}
