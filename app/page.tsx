@@ -1,8 +1,27 @@
+'use client';
+
+import { Navigation } from './components/navigation';
+import { Hero } from './components/hero';
+import { HowItWorks } from './components/how-it-works';
+import { Opportunities } from './components/opportunities';
+import { Features } from './components/features';
+import { Testimonials } from './components/testimonials';
+import { FAQ } from './components/faq';
+import { Contact } from './components/contact';
+import { Footer } from './components/footer';
+
 export default function Home() {
   return (
-    <main className="bg-background text-foreground">
-      <h1 className="text-4xl font-bold p-8">Farm Investor Platform</h1>
-      <p className="px-8 text-lg">Premium agricultural investment opportunities</p>
-    </main>
+    <>
+      <Navigation />
+      <Hero />
+      <HowItWorks />
+      <Opportunities />
+      <Features />
+      <Testimonials />
+      <FAQ />
+      <Contact />
+      <Footer />
+    </>
   );
 }
