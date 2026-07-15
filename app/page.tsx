@@ -1,11 +1,8 @@
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <div className="container mx-auto px-4 py-20">
-        <h1 className="text-4xl font-bold mb-6">Welcome to Farm Investor</h1>
-        <p className="text-xl mb-8">Premium agricultural investment platform for sustainable growth</p>
-        <button className="btn-primary">Get Started</button>
-      </div>
+    <main className="bg-background text-foreground">
+      <h1 className="text-4xl font-bold p-8">Farm Investor Platform</h1>
+      <p className="px-8 text-lg">Premium agricultural investment opportunities</p>
     </main>
   );
 }
